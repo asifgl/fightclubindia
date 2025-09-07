@@ -1,5 +1,6 @@
-import { Button } from "@/app/components/ui/button";
+// import { Button } from "@/app/components/ui/button";
 import { Card, CardContent } from "@/app/components/ui/card";
+import Image from "next/image";
 import productsImage from "@/app/assets/dojo.png";
 import trainingImage from "@/app/assets/dojo.png";
 import workshopImage from "@/app/assets/dojo.png";
@@ -62,8 +63,8 @@ const Services = () => {
               className="group overflow-hidden border-neutral-500/40 martial-transition hover:shadow-martial bg-card/50 backdrop-blur-sm"
             >
               <div className="relative overflow-hidden">
-                <img
-                    src={service.image.src}
+                <Image
+                    src={service.image}
                   alt={service.title}
                   className="w-full h-64 object-cover martial-transition group-hover:scale-105"
                 />

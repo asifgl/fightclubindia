@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/app/components/ui/card";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -28,7 +29,7 @@ const About = () => {
                   
                   <div className="space-y-4 text-zinc-200/80 leading-relaxed">
                     <p>
-                      Hi there, this is Syed Asif Ali, the author of this website. I have been dedicated to martial arts for over 20 years. My experience spans across many Indian and Western martial arts, and I am also highly experienced in teaching women's self-defense.
+                      {"Hi there, this is Syed Asif Ali, the author of this website. I have been dedicated to martial arts for over 20 years. My experience spans across many Indian and Western martial arts, and I am also highly experienced in teaching women's self-defense."}
                     </p>
                     
                     <p>
@@ -48,7 +49,7 @@ const About = () => {
                       Multiple Disciplines
                     </span>
                     <span className="bg-neutral-800 text-zinc-300 px-3 py-1 rounded-full text-sm font-medium">
-                      Women's Self-Defense
+                      {"Women's Self-Defense"}
                     </span>
                     <span className="bg-neutral-800 text-zinc-300 px-3 py-1 rounded-full text-sm font-medium">
                       Online Training
